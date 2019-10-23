@@ -40,5 +40,5 @@ resource "google_compute_instance" "consul" {
     name = "consul"
   }
 
-  metadata_startup_script = "sudo yum update -y;sudo yum install git -y; sudo git clone https://github.com/Diksha86/consul.git; cd consul; sudo chmod 777 /consul/*; sudo sh consul.sh"
+  metadata_startup_script = "sudo yum update -y;sudo yum install git -y; sudo git clone https://github.com/Diksha86/consul.git; cd consul; sudo chmod 777 /consul/*; sudo sh consul1.sh"
 }
